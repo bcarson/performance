@@ -21,7 +21,10 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@types/faker": "^4.1.4",
     "core-js": "^2.4.1",
+    "faker": "^4.1.0",
+    "memo-decorator": "^1.0.2",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -40,6 +43,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "perfume.js": "^2.0.0",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",

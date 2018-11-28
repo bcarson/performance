@@ -1,0 +1,9 @@
+<!-- <input type='text' [(ngModel)]="search">
+<ul *ngFor="let product of products | filter: search">
+  <li>
+    {{ product }}
+  </li>
+</ul> -->
+
+<app-products-input (search)="filterProducts($event)"></app-products-input>
+<app-products-list [products]="filteredProducts"></app-products-list>
